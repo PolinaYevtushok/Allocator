@@ -9,7 +9,7 @@ public:
 	~Allocator();
 
 	void* allocate(size_t n);
-	void deallocate(void* ptr);
+	void deallocate(void* current_block);
 
 
 private:
